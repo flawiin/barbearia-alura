@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative; /* levanta o elemento em relação a página */
+  width: 1080px; /* largura padrão para web */
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute; /* posiciona o elemento em qualquer lugar na página */
+  top: 120px;
+  right: 20px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 15px;
+}
+
+nav a {
+  text-transform: uppercase; /* transforma texto em maiusculo */
+  color: #000000;
+  font-weight: bold; /* deixa texto em negrito */
+  font-size: 22px;
+  text-decoration: none; /* para remover sublinhado */
+}
+
+nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+/* Miolo do site */
+
+.produtos {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 30px;
+  border: 2px black solid;
+  border-radius: 10px; /* arredonda a borda */
+ }
+
+.produtos li:hover {
+  border-color: #c78c19;
+}
+
+.produtos li:active {
+  border-color: green;
+}
+
+.produtos li:hover h2 {
+  font-size: 33px;
+}
+
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 19px;
+}
+
+.produtos-precos {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background: url(../imagens/bg.jpg);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+}
