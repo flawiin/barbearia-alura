@@ -6,6 +6,7 @@
 
 header {
     background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
 .cabecalho {
@@ -31,4 +32,10 @@ header {
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
+}
+
+.nav-conteiner-header a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+
 }
