@@ -39,3 +39,15 @@ header {
     text-decoration: underline;
 
 }
+
+footer {
+    background: url(../imagens/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
