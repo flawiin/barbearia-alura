@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+fieldset {
+    border: none;
+}
+
 header {
     background-color: #bbbbbb;
     padding: 1.25rem 0;
 }
 
 .cabecalho {
-    position: relative;''
+    position: relative;
     width: 1080px;
     margin: 0 auto;
 }
