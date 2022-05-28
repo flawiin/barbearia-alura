@@ -5,24 +5,24 @@
 }
 header {
 	background: #bbbbbb;
-	padding: 20px 0;
+	padding: 1.25rem 0;
 }
 
 .conteiner {
 	position: relative;
-	width: 1080px;
+	width: 71.25rem;
 	margin: 0 auto;
 }
 
 nav {
 	position: absolute;
-	top: 120px;
-	right: 20px;
+	top: 7.5rem;
+	right: 1.25rem;
 }
 
 .menu {
 	display: inline;
-	margin-left: 15px;
+	margin-left: .9375rem;
 }
 
 nav a {
@@ -30,7 +30,7 @@ nav a {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.375rem;
 }
 
 nav a:hover {
@@ -41,11 +41,11 @@ nav a:hover {
 /* Miolo do Site */
 
 .principal {
-	width: 1080px;
-	padding: 20px 30px;
-	border: 2px solid black;
-	border-radius: 10px;
-	margin: 100px auto 100px;
+	width: 71.25rem;
+	padding: 1.25rem 1.875rem;
+	border: .125rem solid black;
+	border-radius: .625rem;
+	margin: 6.25rem auto 6.25rem;
 	
 	
 }
@@ -53,7 +53,7 @@ nav a:hover {
 h2 {
 	text-align: center;
 	font-weight: bold;
-	padding: 10px 20px 20px;
+	padding: .625rem 1.25rem 1.25rem;
 	font-size: 22px;
 }
 
@@ -63,8 +63,8 @@ p {
 }
 
 #missao {
-	font-size: 20px;
-	padding: 5px 0;
+	font-size: 1.25rem;
+	padding: .3125rem 0;
 }
 
 em strong {
@@ -76,47 +76,47 @@ em strong {
 }
 
 .beneficios {
-	padding: 10px 20px 20px;
-	border: 2px solid black;
-	border-radius: 10px;
-	width: 1080px;
-	margin: 0 auto 100px;
+	padding: .625rem 1.25rem 1.25rem;
+	border: .125rem solid black;
+	border-radius: .625rem;
+	width: 71.25rem;
+	margin: 0 auto 6.25rem;
 	
 }
 
 h3 {
 	text-align: center;
-	margin: 20px auto 0;
+	margin: 1.25rem auto 0;
 	font-weight: bold;
-	font-size: 22px;
-	padding: 0 0 25px;
+	font-size: 1.375rem;
+	padding: 0 0 1.5625rem;
 }
 
 .beneficio-principal {
 	display: inline-block;
 	position: relative;
-	left: 50px;
-	top: 90px;
+	left: 3.125rem;
+	top: 5.625rem;
 	vertical-align: top;
-	width: 500px;
+	width: 31.25rem;
 	line-height: 1.5;
 	list-style: circle black solid;
-	padding-left: 30px;
+	padding-left: 1.875rem;
 
 }
 
 .imagembeneficios {
-	width: 500px;
+	width: 31.25rem;
 }
 
 footer {
 	background: url(../imagens/bg.jpg);
 	text-align: center;
-	padding: 40px;
+	padding: 2.5rem;
 
 }
 
 .copyright {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: .8125rem;
 }
