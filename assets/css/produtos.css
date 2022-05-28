@@ -54,7 +54,7 @@ nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
   vertical-align: top;
   margin: 0 1.5%;
   padding: 1.875rem 1.875rem;
-  border: 2px black solid;
+  border: .125rem black solid;
   border-radius: .625rem; /* arredonda a borda */
  }
 

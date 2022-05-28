@@ -41,6 +41,44 @@ header {
 
 }
 
+/* Miolo do site */
+
+main {
+    width: 71.25rem;
+    margin: 0 auto;
+}
+
+form {
+     margin: 2.5rem auto;
+     border: .125rem solid black;
+     border-radius: .625rem;
+     padding: 1.25rem;
+     
+}
+
+form label, form legend {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: .625rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: .625rem;
+    width: 50%;
+}
+
+.checkbox {
+    margin-top: 1.25rem;
+}
+
+/* Rodapé */
+
 footer {
     background: url(../imagens/bg.jpg);
     text-align: center;
@@ -53,38 +91,3 @@ footer {
     margin-top: 1.25rem;
 }
 
-/* Miolo do site */
-
-main {
-    width: 1080px;
-    margin: 0 auto;
-}
-
-form {
-     margin: 40px auto;
-     border: 2px solid black;
-     border-radius: 10px;
-     padding: 20px;
-     
-}
-
-form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-fieldset {
-    border: none;
-}
-
-.input-padrao {
-    display: block;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 50%;
-}
-
-.checkbox {
-    margin-top: 20px;
-}
