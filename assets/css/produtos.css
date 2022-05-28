@@ -6,31 +6,31 @@
 
 header {
   background: #bbbbbb;
-  padding: 1.25rem 0;
+  padding: 20px 0;
 }
 
 .caixa {
   position: relative; /* levanta o elemento em relação a página */
-  width: 71.25rem; /* largura padrão para web */
+  width: 1080px; /* largura padrão para web */
   margin: 0 auto;
 }
 
 nav {
   position: absolute; /* posiciona o elemento em qualquer lugar na página */
-  top: 7.5rem;
-  right: 1.25rem;
+  top: 120px;
+  right: 20px;
 }
 
 nav li {
   display: inline;
-  margin-left: .9375rem;
+  margin-left: 15px;
 }
 
 nav a {
   text-transform: uppercase; /* transforma texto em maiusculo */
   color: #000000;
   font-weight: bold; /* deixa texto em negrito */
-  font-size: 1.375rem;
+  font-size: 22px;
   text-decoration: none; /* para remover sublinhado */
 }
 
@@ -42,9 +42,9 @@ nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
 /* Miolo do site */
 
 .produtos {
-  width: 71.25rem;
+  width: 1080px;
   margin: 0 auto;
-  padding: 3.125rem 0;
+  padding: 50px 0;
 }
 
 .produtos li {
@@ -53,9 +53,9 @@ nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
   width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
-  padding: 1.875rem 1.875rem;
+  padding: 30px 30px;
   border: 2px black solid;
-  border-radius: .625rem; /* arredonda a borda */
+  border-radius: 10px; /* arredonda a borda */
  }
 
 .produtos li:hover {
@@ -67,32 +67,32 @@ nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
 }
 
 .produtos li:hover h2 {
-  font-size: 2.0625rem;
+  font-size: 33px;
 }
 
 .produtos h2 {
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .produto-descricao {
-  font-size: 1.1875rem;
+  font-size: 19px;
 }
 
 .produtos-precos {
-  font-size: 1.375rem;
+  font-size: 22px;
   font-weight: bold;
-  margin-top: .625rem;
+  margin-top: 10px;
 }
 
 footer {
   background: url(../imagens/bg.jpg);
   text-align: center;
-  padding: 2.5rem 0;
+  padding: 40px 0;
 }
 
 .copyright {
   color: white;
-  font-size: .8125rem;
-  margin-top: 1.25rem;
+  font-size: 13px;
+  margin-top: 20px;
 }
