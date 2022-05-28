@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 header {
@@ -55,4 +56,40 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 >>>>>>> Stashed changes
+}
+
+/* Miolo do site */
+
+main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+form {
+     margin: 40px auto;
+     border: 2px solid black;
+     border-radius: 10px;
+     padding: 20px;
+     
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.checkbox {
+    margin-top: 20px;
 }
