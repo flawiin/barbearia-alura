@@ -5,15 +5,26 @@
 
 }
 
+body {
+    background-color: #bbbbbb;
+}
+
 header {
     background-color: #bbbbbb;
     padding: 1.25rem 0;
+}
+
+h1 {
+	
+	position: relative;
+	left: 6.25rem;
 }
 
 .cabecalho {
     position: relative;
     width: 71.25rem;
     margin: 0 auto;
+    right: 3.75rem;
 }
 
 .nav-conteiner-header {
@@ -46,12 +57,11 @@ header {
 main {
     width: 71.25rem;
     margin: 0 auto;
+    display: grid;
 }
 
 form {
-     margin: 2.5rem auto;
-     border: .125rem solid black;
-     border-radius: .625rem;
+    margin: 40px 0;
      padding: 1.25rem;
      
 }

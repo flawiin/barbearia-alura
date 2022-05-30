@@ -3,15 +3,27 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+
+body {
+	background-color: #bbbbbb;
+}
+
 header {
 	background: #bbbbbb;
 	padding: 1.25rem 0;
+}
+
+h1 {
+	
+	position: relative;
+	left: 6.25rem;
 }
 
 .conteiner {
 	position: relative;
 	width: 71.25rem;
 	margin: 0 auto;
+	right: 60px;
 }
 
 nav {
@@ -40,14 +52,23 @@ nav a:hover {
 
 /* Miolo do Site */
 
-.principal {
+.main-conteiner {
 	width: 71.25rem;
+	margin: 0 auto;
+}
+
+.banner-principal {
+	width: 100%;
+
+}
+
+
+.principal {
 	padding: 1.25rem 1.875rem;
-	border: .125rem solid black;
-	border-radius: .625rem;
-	margin: 6.25rem auto 6.25rem;
-	
-	
+	margin: 0 auto;
+	background-color: #bbbbbb;
+	margin-top: -0.25rem;
+	height: 100%;
 }
 
 h2 {
@@ -76,13 +97,14 @@ em strong {
 }
 
 .beneficios {
-	padding: .625rem 1.25rem 1.25rem;
-	border: .125rem solid black;
-	border-radius: .625rem;
-	width: 71.25rem;
-	margin: 0 auto 6.25rem;
+	margin: 0 auto;
+	background-color: #bbbbbb;
+	padding: 1.25rem;
 	
+
+
 }
+
 
 h3 {
 	text-align: center;
@@ -94,11 +116,8 @@ h3 {
 
 .beneficio-principal {
 	display: inline-block;
-	position: relative;
-	left: 3.125rem;
-	top: 5.625rem;
 	vertical-align: top;
-	width: 31.25rem;
+	width: 45%;
 	line-height: 1.5;
 	list-style: circle black solid;
 	padding-left: 1.875rem;
@@ -106,14 +125,13 @@ h3 {
 }
 
 .imagembeneficios {
-	width: 31.25rem;
+	max-width: 45%;
 }
 
 footer {
 	background: url(../imagens/bg.jpg);
 	text-align: center;
 	padding: 2.5rem;
-
 }
 
 .copyright {
