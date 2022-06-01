@@ -4,26 +4,17 @@
 	margin: 0;
 }
 
-body {
-	background-color: #bbbbbb;
-}
-
 header {
 	background: #bbbbbb;
 	padding: 1.25rem 0;
-}
-
-h1 {
 	
-	position: relative;
-	left: 6.25rem;
 }
 
 .conteiner {
 	position: relative;
 	width: 71.25rem;
 	margin: 0 auto;
-	right: 60px;
+	
 }
 
 nav {
@@ -38,7 +29,7 @@ nav {
 }
 
 nav a {
-	color: black;
+	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
@@ -81,6 +72,7 @@ h2 {
 p {
 	text-align: center;
 	line-height: 1.5;
+	
 }
 
 #missao {
@@ -96,13 +88,12 @@ em strong {
 	font-style: italic;
 }
 
+
 .beneficios {
 	margin: 0 auto;
 	background-color: #bbbbbb;
 	padding: 1.25rem;
 	
-
-
 }
 
 
@@ -119,10 +110,11 @@ h3 {
 	vertical-align: top;
 	width: 45%;
 	line-height: 1.5;
-	list-style: circle black solid;
 	padding-left: 1.875rem;
 
 }
+
+
 
 .imagembeneficios {
 	max-width: 45%;

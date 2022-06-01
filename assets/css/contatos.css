@@ -5,10 +5,6 @@
 
 }
 
-body {
-    background-color: #bbbbbb;
-}
-
 header {
     background-color: #bbbbbb;
     padding: 1.25rem 0;
@@ -62,7 +58,7 @@ main {
 
 form {
     margin: 40px 0;
-     padding: 1.25rem;
+    padding: 1.25rem;
      
 }
 
@@ -85,6 +81,22 @@ fieldset {
 
 .checkbox {
     margin-top: 1.25rem;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 1.125rem;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
 }
 
 /* Rodapé */
