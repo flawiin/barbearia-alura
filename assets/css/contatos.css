@@ -57,8 +57,8 @@ main {
 }
 
 form {
-    margin: 40px 0;
-    padding: 1.25rem;
+    margin-top: 2.5rem;
+    padding: 1.25rem 0;
      
 }
 
@@ -92,11 +92,29 @@ fieldset {
     font-size: 1.125rem;
     transition: 1s background;
     cursor: pointer;
+    position: relative;
+    left: 40px;
+    margin-top: 10px;
 }
 
 .enviar:hover {
     background-color: darkorange;
     transform: scale(1.1);
+}
+
+table {
+    margin: 1.25rem 0;
+    width: 50%;
+}
+
+thead {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+td, th {
+    border: .0625rem black solid;
+    padding: .5rem .9375rem;
 }
 
 /* Rodapé */
@@ -112,4 +130,6 @@ footer {
     font-size: .8125rem;
     margin-top: 1.25rem;
 }
+
+
 
