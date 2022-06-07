@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+body {
+	font-family: 'Domine', serif;
+}
+
 header {
 	background: #bbbbbb;
 	padding: 1.25rem 0;
@@ -46,11 +50,21 @@ nav a:hover {
 .main-conteiner {
 	width: 71.25rem;
 	margin: 0 auto;
+	background-color: #bbbbbb;
 }
 
 .banner-principal {
 	width: 100%;
 
+}
+
+.mapa {
+	text-align: center;
+	padding: 0 1.875rem 0;
+}
+
+.mapa p {
+	margin: 0 0 1.25rem;
 }
 
 
@@ -62,15 +76,24 @@ nav a:hover {
 	height: 100%;
 }
 
-h2 {
+.titulo {
 	text-align: center;
+}
+
+.utensilios {
+	width: 9.375rem;
+	float: left;
+}
+
+h2 {
+	
 	font-weight: bold;
 	padding: .625rem 1.25rem 1.25rem;
 	font-size: 22px;
 }
 
 p {
-	text-align: center;
+	
 	line-height: 1.5;
 	
 }
@@ -108,16 +131,23 @@ h3 {
 .beneficio-principal {
 	display: inline-block;
 	vertical-align: top;
-	width: 45%;
+	width: 35%;
 	line-height: 1.5;
 	padding-left: 1.875rem;
 
 }
 
-
-
 .imagembeneficios {
-	max-width: 45%;
+	max-width: 60%;
+}
+
+.video {
+	width: 35rem;
+	margin: 0 auto;
+	padding: 0 0 1.25rem;
+	
+
+
 }
 
 footer {
