@@ -95,6 +95,7 @@ fieldset {
     position: relative;
     left: 2.5rem;
     margin-top: 0.625rem;
+    padding: 1.25rem;
 }
 
 .enviar:hover {
