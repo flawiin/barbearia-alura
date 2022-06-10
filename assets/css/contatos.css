@@ -85,9 +85,9 @@ fieldset {
 
 .enviar {
     width: 40%;
-    padding: 15px;
+    padding: 0.9375rem
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: orange;
     font-size: 1.125rem;
     transition: 1s background;
