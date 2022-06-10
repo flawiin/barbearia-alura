@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+body {
+	font-family: 'Domine', serif;
+}
+
 header {
 	background: #bbbbbb;
 	padding: 1.25rem 0;
@@ -43,34 +47,58 @@ nav a:hover {
 
 /* Miolo do Site */
 
-.main-conteiner {
-	width: 71.25rem;
-	margin: 0 auto;
-}
 
 .banner-principal {
-	width: 100%;
+	width: 71.25rem;
+	margin: 0 auto;
+	display: flex;
+}
 
+.mapa {
+	padding: 1.875rem 1.875rem;
+	background: linear-gradient(#fefefe, #888888);
+	
+}
+
+.mapa p {
+	margin: 0 0 1.25rem;
+	text-align: center;
+}
+
+.mapa-conteudo {
+	width: 71.25rem;
+	margin: 0 auto;
 }
 
 
 .principal {
 	padding: 1.25rem 1.875rem;
-	margin: 0 auto;
-	background-color: #bbbbbb;
+	background-color: #fefefe;
 	margin-top: -0.25rem;
 	height: 100%;
+	width: 71.25rem;
+	margin: 0 auto;
+}
+
+.titulo {
+	text-align: center;
+	margin-top: 0;
+}
+
+.utensilios {
+	width: 9.375rem;
+	float: left;
 }
 
 h2 {
-	text-align: center;
+	
 	font-weight: bold;
 	padding: .625rem 1.25rem 1.25rem;
 	font-size: 22px;
 }
 
 p {
-	text-align: center;
+	
 	line-height: 1.5;
 	
 }
@@ -86,13 +114,25 @@ em strong {
 
 .itens {
 	font-style: italic;
+	line-height: 1.5;
+	list-style: none;
+	
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "\272A";
+	margin: 0 .25rem 0 0;
 }
 
 
 .beneficios {
-	margin: 0 auto;
-	background-color: #bbbbbb;
+	background-color: #888888;
 	padding: 1.25rem;
+	
 	
 }
 
@@ -105,19 +145,31 @@ h3 {
 	padding: 0 0 1.5625rem;
 }
 
-.beneficio-principal {
-	display: inline-block;
-	vertical-align: top;
-	width: 45%;
-	line-height: 1.5;
-	padding-left: 1.875rem;
-
+.lista-principal {
+	padding: 0 1.875rem 0 0;
 }
 
+.imagemBeneficio {
+	max-width: 50%;
+}
 
+.beneficio-principal {
+	width: 71.25rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
 
-.imagembeneficios {
-	max-width: 45%;
+.video-container {
+	background-color: #888888;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	padding:  2.5rem 0 3.125rem;
+	width: 71.25rem;
+	margin: 0 auto;
 }
 
 footer {
