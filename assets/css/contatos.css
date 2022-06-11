@@ -5,6 +5,10 @@
 
 }
 
+body {
+    font-family: 'Domine', serif;
+}
+
 header {
     background-color: #bbbbbb;
     padding: 1.25rem 0;
