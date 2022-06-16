@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <div class="cabecalho">
+        <section class="cabecalho">
 
-            <h1><img src="assets/imagens/logo.png" alt="logo"></h1>
+            <h1><img src="assets/imagens/logo-branco.png" alt="logo"></h1>
             <nav class="nav-conteiner-header">
                 <ul>
                     <li class="lista-header"><a href="index.html">Home</a></li>
@@ -21,11 +21,11 @@
                 </ul>
             </nav>
 
-        </div>
+        </section>
     </header>
 
     <main>
-        <form>
+        <form class="container-form">
             <fieldset>
                 <label for="nomeSobrenome">Nome e sobrenome</label>
                 <input type="text" id="nomeSobrenome" class="input-padrao" required>
@@ -70,30 +70,34 @@
             </fieldset>
         </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horário</th>
-                </tr>
-            <thead>
-            <tbody>
-                <tr>
-                    <td>Segunda-feira</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-            
-                <tr>
-                    <td>Quarta-feira</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-            
-                <tr>
-                    <td>Sexta-feira</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-            </tbody>
-        </table>
+       
+
+        <div class="container-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                <thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </main>
 

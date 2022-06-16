@@ -9,16 +9,16 @@ body {
 }
 
 header {
-	background: #bbbbbb;
 	padding: 1.25rem 0;
-	
+	background: url(../imagens/header2.png) no-repeat center/100%;
+	margin: 0 auto;
+
 }
 
 .conteiner {
 	position: relative;
 	width: 71.25rem;
 	margin: 0 auto;
-	
 }
 
 nav {
@@ -33,31 +33,26 @@ nav {
 }
 
 nav a {
-	color: #000000;
+	color: #fefefe;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1.375rem;
+	font-size: 24px;
+	text-shadow: 15px 15px 15px black;
 }
 
 nav a:hover {
 	color: #c78c19;
-	text-decoration: underline;
+	text-decoration: none;
+	font-size: 28px;
+	transition: 400ms;
 }
 
-/* Miolo do Site */
-
-
-.banner-principal {
-	width: 71.25rem;
-	margin: 0 auto;
-	display: flex;
-}
+/* MIOLO DO SITE */
 
 .mapa {
 	padding: 1.875rem 1.875rem;
 	background: linear-gradient(#fefefe, #888888);
-	
 }
 
 .mapa p {
@@ -69,7 +64,6 @@ nav a:hover {
 	width: 71.25rem;
 	margin: 0 auto;
 }
-
 
 .principal {
 	padding: 1.25rem 1.875rem;
@@ -83,11 +77,17 @@ nav a:hover {
 .titulo {
 	text-align: center;
 	margin-top: 0;
+	/* color: rgba(0, 0, 0, 0.3); Com a propriedade {rgba} podemos aplicar opacidade em todos os elementos:  bordas, títulos, cores, etc. */
 }
 
 .utensilios {
 	width: 9.375rem;
 	float: left;
+	padding: 0 1.25rem 0 0;
+}
+
+h1 {
+	color: rgba(0, 0, 0, 1.0);
 }
 
 h2 {
@@ -100,7 +100,6 @@ h2 {
 p {
 	
 	line-height: 1.5;
-	
 }
 
 #missao {
@@ -116,7 +115,6 @@ em strong {
 	font-style: italic;
 	line-height: 1.5;
 	list-style: none;
-	
 }
 
 .itens:first-child {
@@ -128,36 +126,41 @@ em strong {
 	margin: 0 .25rem 0 0;
 }
 
-
-.beneficios {
-	background-color: #888888;
-	padding: 1.25rem;
-	
-	
+.container-beneficios {
+	width: 71.25rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
 }
 
 
 h3 {
 	text-align: center;
-	margin: 1.25rem auto 0;
 	font-weight: bold;
 	font-size: 1.375rem;
 	padding: 0 0 1.5625rem;
 }
 
+.beneficios {
+	background: #888888;
+}
+
 .lista-principal {
 	padding: 0 1.875rem 0 0;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .imagemBeneficio {
-	max-width: 50%;
+	width: 50%;
+	transition: 400ms;
+	opacity: 1.0;
+	box-shadow: 0.625rem 0.625rem 0.625rem black; /* Eixo Y, X, espalhamento da sombra, cor. */
 }
 
-.beneficio-principal {
-	width: 71.25rem;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
+.imagemBeneficio:hover {
+	opacity: 0.3;
+	
 }
 
 .video-container {
@@ -181,4 +184,10 @@ footer {
 .copyright {
 	color: #FFFFFF;
 	font-size: .8125rem;
+}
+
+@media screen and (max-width: 30.0rem) {
+	.conteiner, .principal, .mapa, .beneficios, .beneficio-principal, .video-container, .video, .mapa-conteudo, .banner-container, .lista-principal{
+		width: auto;
+	}
 }
