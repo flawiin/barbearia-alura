@@ -70,6 +70,7 @@ nav a:hover { /* para adicionar efeito nos menus quando passar o mouse */
   border: .125rem black solid;
   border-radius: .625rem; /* arredonda a borda */
   background-color: #fefefe;
+  box-shadow: 10px 10px 20px black;
 }
 
 .produtos li:hover {
