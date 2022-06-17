@@ -10,8 +10,11 @@ body {
 }
 
 header {
-    background:  url(../imagens/header2.png) no-repeat center/100%;
     padding: 1.25rem 0;
+    background-image: url(../imagens/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 
@@ -67,7 +70,7 @@ form {
 }
 
 form label, form legend {
-    display: block;
+    display: inline-block;
     font-size: 1.25rem;
     margin-bottom: .625rem;
 }
@@ -150,6 +153,70 @@ footer {
     font-size: .8125rem;
     margin-top: 1.25rem;
 }
+
+@media screen and (max-width: 54.6875rem) {
+    .cabecalho, .container-form, .container-table {
+        width: auto;
+        padding: 0.625rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .nav-conteiner-header {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-conteiner-header a {
+        font-size: 1.125rem;
+    }
+
+    form label, form legend {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .input-padrao, legend {
+       margin: auto;
+    }
+
+    .enviar {
+        display: flex;
+        justify-content: center;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    h2 {
+        margin: auto;
+        font-size: 1.125rem;
+    }
+
+    .checkbox {
+        font-size: 0.875rem;
+    }
+
+    .enviar {
+        width: 80%;
+    }
+
+    .box-select {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
 
 
 

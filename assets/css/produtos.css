@@ -9,8 +9,11 @@ body {
 }
 
 header {
-  background: url(../imagens/header2.png) no-repeat center/100%;
   padding: 1.25rem 0;
+  background-image: url(../imagens/header2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
 }
 
 .caixa {
@@ -111,4 +114,31 @@ footer {
   color: white;
   font-size: .8125rem;
   margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 54.6875rem) {
+  .caixa, .container, .produtos {
+    width: auto;
+    padding: 10px;
+  }
+
+.produtos li {
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+  nav {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 1.125rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
 }
