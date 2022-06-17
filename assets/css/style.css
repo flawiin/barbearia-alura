@@ -10,7 +10,9 @@ body {
 
 header {
 	padding: 1.25rem 0;
-	background: url(../imagens/header2.png) no-repeat center/100%;
+	background-image: url(../imagens/header2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin: 0 auto;
 
 }
@@ -182,8 +184,26 @@ footer {
 	font-size: .8125rem;
 }
 
-@media screen and (max-width: 30.0rem) {
-	.conteiner, .principal, .mapa, .beneficios, .beneficio-principal, .video-container, .video, .mapa-conteudo, .banner-container, .lista-principal{
+@media screen and (max-width: 54.6875rem) {
+	nav {
+		position: static;
+		font-size: 1.125rem;
+		display: flex;
+		justify-content: center;
+		margin: auto;
+
+	}
+
+	nav a {
+		font-size: 1.125rem;
+	}
+
+	.conteiner, .principal, .mapa, .beneficios, .mapa-conteudo, .titulo, .container-beneficios, .video-container, .video {
 		width: auto;
+		padding: 10px;
+	}
+
+	h1 {
+		text-align: center;
 	}
 }
