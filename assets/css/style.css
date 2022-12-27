@@ -148,6 +148,11 @@ h3 {
 	padding: 0 1.875rem 0 0;
 	display: inline-block;
 	vertical-align: top;
+	list-style-type: none;
+}
+
+.itens {
+	list-style-type: disc;
 }
 
 .imagemBeneficio {
